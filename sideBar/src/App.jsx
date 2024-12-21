@@ -6,9 +6,9 @@ import {Sidebar1} from "./items/demosideBar"
 function App() {
   return (
     <Router> {/* Wrap the entire app with Router */}
-      <div className="w-full h-screen flex ">
+      <div className=" ">
         <SideBar/>
-        <div className="flex-1">
+        {/* <div className="flex-1">
           <Routes>
             <Route path="/dashboard" element={<h1 className=""></h1>} />
             <Route path="/students" element={<h1></h1>} />
@@ -17,7 +17,7 @@ function App() {
             <Route path="/reports" element={<h1></h1>} />
             <Route path="/settings" />
           </Routes>
-        </div>
+        </div> */}
       </div>
     </Router>
   );
